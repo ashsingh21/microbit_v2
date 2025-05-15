@@ -1,0 +1,14 @@
+[package]
+name = "microbit"
+version = "0.1.0"
+authors = ["Ashu <ashu.180yx@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+cortex-m = "0.7.3"
+cortex-m-rt = "0.7.0"
+rtt-target = { version =  "0.3.1", features = ["cortex-m"] }
+panic-rtt-target = { version =  "0.1.2", features = ["cortex-m"] }
+microbit-v2 = "0.15.1"
+embedded-hal = "1.0.0"
+nrf52833-hal = "0.18.0"
