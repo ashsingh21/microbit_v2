@@ -81,16 +81,6 @@ $ cargo embed --version
 cargo-embed 0.24.0 (git commit: crates.io)
 ```
 
-### This repository
-
-Since this book also contains some small Rust code bases used in various chapters
-you will also have to download its source code. You can do this in one of the following ways:
-
-* Visit the [repository](https://github.com/rust-embedded/discovery/), click the green "Code" button and then the
-   "Download Zip" one
-* Clone it using git (if you know git you presumably already have it installed) from the same repository as linked in
-   the zip approach
-
 ### OS specific instructions
 
 Now follow the instructions specific to the OS you are using:
