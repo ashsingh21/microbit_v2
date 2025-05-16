@@ -14,7 +14,7 @@ use cortex_m_rt::entry;
 #[entry]
 fn main() -> ! {
     rtt_init_print!();
-    rprintln!("Starting LED Game");
+    rprintln!("Starting Game");
     
     let mut snake_game = snakegame::SnakeGame::new();
     snake_game.run();

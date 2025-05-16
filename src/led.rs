@@ -131,8 +131,10 @@ impl LedMatrix {
 
     #[inline(always)]
     pub fn set_state(&mut self, x: usize, y: usize, state: LedState) {
-        if x < 5 && y < 5 && x >= 0 && y >= 0 {
+        if x < 5 && y < 5{
             self.leds[x][y] = state;
+        } else {
+            rprintln!("Invalid LED coordinates: ({}, {})", x, y);
         }
     }
 
