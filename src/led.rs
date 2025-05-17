@@ -156,6 +156,7 @@ impl LedMatrix {
             for j in 0..5 {
                 match self.leds[i][j] {
                     LedState::Blink { toggle } => {
+                        rprintln!("Blinking LED at ({}, {})", i, j);
                         leds[i][j] = toggle as u8;
                         self.leds[i][j] = LedState::Blink { toggle: !toggle };
                     },

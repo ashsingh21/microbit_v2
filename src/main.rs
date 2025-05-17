@@ -5,6 +5,7 @@ mod microphone;
 mod speaker;
 mod led;
 mod snakegame;
+mod sensors;
 
 use panic_rtt_target as _;
 use rtt_target::{rtt_init_print, rprintln};
