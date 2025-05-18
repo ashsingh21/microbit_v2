@@ -17,8 +17,10 @@ fn main() -> ! {
     rtt_init_print!();
     rprintln!("Starting LED Game");
     
-    let mut snake_game = snakegame::SnakeGame::new();
-    snake_game.run();
+    sensors::run();
+
+    // let mut snake_game = snakegame::SnakeGame::new();
+    // snake_game.run();
  }
 
 

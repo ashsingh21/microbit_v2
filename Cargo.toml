@@ -13,3 +13,4 @@ microbit-v2 = "0.15.1"
 embedded-hal = "1.0.0"
 nrf52833-hal = "0.18.0"
 arrayvec = { version = "0.7.6", default-features = false }
+lsm303agr = "1.1.0"
